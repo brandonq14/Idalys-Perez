@@ -1,0 +1,42 @@
+body {
+    color: white;
+    background-image: url(https://wallpapertag.com/wallpaper/full/3/d/0/623090-nice-background-pictures-3840x2160-phone.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-left: 25px;
+    transition-duration: 1s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1:hover {
+    font-size: 40px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+li {
+    font-family: 'Hammersmith One', sans-serif;
+    transition-duration: 1s;
+}
+
+li:hover {
+    font-size: 30px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+img:hover {
+    transition-duration: 2s;
+    width: 450px;
+    transform: rotate(360deg);
+    filter: grayscale(100%);
+}
+
+img {
+    margin-left: 35px;
+    width: 360px;
+    transition-duration: 2s;
+}
